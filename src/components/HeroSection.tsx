@@ -35,7 +35,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="opacity-0 animate-fade-up-delay-2 text-muted-foreground text-lg sm:text-xl leading-relaxed mb-10 max-w-md">
-              Harness intelligent tools and seamless workflows to ship products that stand apart.
+              Harness intelligent tools and seamless workflows to ship products that stand apart. · QA branch edit
             </p>
 
             <div className="opacity-0 animate-fade-up-delay-2 flex flex-wrap gap-4">
