@@ -1,4 +1,4 @@
-import heroIllustration from "@/assets/hero-illustration.png";
+import heroIllustration from "@/assets/hero-illustration-light.png";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -12,7 +12,7 @@ const HeroSection = () => {
 
       {/* Subtle grid overlay */}
       <div
-        className="absolute inset-0 opacity-[0.03]"
+        className="absolute inset-0 opacity-[0.05]"
         style={{
           backgroundImage: "linear-gradient(hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--foreground)) 1px, transparent 1px)",
           backgroundSize: "80px 80px",
@@ -56,7 +56,10 @@ const HeroSection = () => {
               <img
                 src={heroIllustration}
                 alt="Futuristic dashboard interface with holographic data panels"
-                className="relative w-full max-w-lg lg:max-w-xl drop-shadow-2xl"
+                loading="lazy"
+                width={1024}
+                height={1024}
+                className="relative w-full max-w-lg lg:max-w-xl drop-shadow-[0_28px_60px_rgba(27,45,70,0.28)]"
               />
             </div>
           </div>
