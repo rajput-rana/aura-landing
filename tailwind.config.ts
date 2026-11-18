@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Space Grotesk", "sans-serif"],
+        display: ["Fraunces", "Georgia", "serif"],
         body: ["Inter", "sans-serif"],
       },
       colors: {
@@ -50,16 +50,6 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
-        },
-        gold: {
-          DEFAULT: "hsl(var(--gold-glow))",
-        },
-        navy: {
-          deep: "hsl(var(--navy-deep))",
-          mid: "hsl(var(--navy-mid))",
-        },
-        cyan: {
-          accent: "hsl(var(--cyan-accent))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
